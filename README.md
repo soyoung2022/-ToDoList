@@ -18,7 +18,7 @@ Html, CSS, JavaScript<br>
 - 1차 : 2022.02.09
 
 ## ✨ 사용 방법
-1. 에 접속한다.
+1. https://soyoung2022.github.io/todolist/ 에 접속한다.
 2. 할일을 적으세요 라고 적혀있는 칸에 자신의 할 일을 적고 엔터를 누른다.
   ex) 토플 공부하기
 3. 만약 할 일을 적는 과정 중에 삭제하고 싶은 항목이 있다면 해당 항목 오른쪽에 있는 X 버튼을 누른다.
@@ -36,8 +36,6 @@ Html, CSS, JavaScript<br>
 ### 📍 style.css
 #### display
 flex-direction: row, column, justify-content: center, space-between이 자주 사용되었다.
-#### 폰트
-구글 폰트에서 폰트를 link로 가져와 적용했다.
 
 ### 📍 todo.js
 아래 기능 순서대로 코드를 작성해나갔다.
@@ -77,4 +75,4 @@ flex-direction: row, column, justify-content: center, space-between이 자주 �
 - 할 일이 삭제되거나 추가되는 등 남은 할 일의 개수에 변화가 생길 때 countLeftList() 함수를 호출하여 화면에서 수정되어 보이도록 했다.
 
 ## 👩🏻‍💻 후기 및 다음 목표
-제일 먼저 아이패드에 화면 구상을 하고 시작했는데, 역시 클론 코딩보다는 생각을 많이 할 수 있게 되어 좋았다. display:flex도 완벽하지는 않지만 이번에 사용하면서 좀 더 익숙해진 듯 하다. 이번 투 두 리스트에서는 완료한 할 일을 line-through 적용하는 것에서 더 나아가 위치를 분리시키지 못해서 아쉬웠고, 계속 보다보니 더 추가하고 싶은 기능들이 보이는 것 같다. 가장 시간이 많이 걸렸던 부분은 완료한 할 일을 새로고침했을 때도 유지시키는 것이었다. 이 부분은 id와 text만 key로 가지고 있었던 todos와 localStorage에 디폴트로 done을 key로, false를 value로 주고 완료한 일의 done에 true 값을 대입하고 checkListDone() 메서드를 호출하여 해결했다. 추가 기능들은 학기 중에 제이쿼리나 리액트를 이용해 적용해볼 예정이다.
+제일 먼저 아이패드에 화면 구상을 하고 시작했는데, 직접 구상부터 개발까지 하니 저번에 했던 클론 코딩보다 스스로 생각을 많이 할 수 있어서 좋았다. display:flex도 완벽하지는 않지만 이번에 사용하면서 좀 더 익숙해진 듯 하다. 이번 투 두 리스트에서는 완료한 할 일을 line-through 적용하는 것에서 더 나아가 위치를 분리시키지 못해서 아쉬웠고, 계속 보다보니 더 추가하고 싶은 기능들이 보이는 것 같다. 가장 시간이 많이 걸렸던 부분은 완료한 할 일을 새로고침했을 때도 유지시키는 것이었다. 이 부분은 id와 text만 key로 가지고 있었던 todos와 localStorage에 디폴트로 done을 key로, false를 value로 주고 완료한 일의 done에 true 값을 대입하고 checkListDone() 메서드를 호출하여 해결했다. 남은 방학과 이번 학기 중으로 제이쿼리나 리액트를 사용해 추가 기능들을 적용하고, 다음 토이 프로젝트를 진행해볼 예정이다.
