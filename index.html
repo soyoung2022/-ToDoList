@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content-all">
+        <div class="content-title">
+            <h1 class="title">I have to do</h1>
+        </div>
+        <section class="content-body">
+            <div>
+                <form class="sumbit-todos">
+                    <input type="text" class="write-todos" placeholder="할일을 적으세요" required>
+                </form>
+            </div>
+            <div class="btn-all">
+                <button class="btn-select-all">Select All</button>
+                <button class="btn-delete-all">Delete All</button>
+            </div>
+            <div class="todo-content">
+            </div>
+        </section>
+        <div class="content-bottom">
+            <span class="cnt-all"></span>
+            <span class="cnt-done">Done: 0</span>
+            <span class="cnt-left">Left: 0</span>
+        </div>
+    </div>
+    <aside class="username">
+        soyoung2022
+    </aside>
+    <script src="js/todolist.js"></script>
+</body>
+</html>
