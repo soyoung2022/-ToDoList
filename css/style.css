@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    background-color: #F2EFEB;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.content-all{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F2EFEB;
+    width: 900px;
+    margin: 50px auto;
+    background-color: #D9D0C7;
+}
+
+.content-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+.title{
+    color: #3B3F42;
+    font-size: 3.5rem;
+}
+
+.content-body{
+    margin-top: 40px;
+}
+
+.sumbit-todos{
+    text-align: center;
+}
+
+.write-todos{
+    border: 1px solid #D9D0C7;
+    border-radius: 1px;
+    width: 850px;
+    height: 35px;
+}
+
+/* 할 일 적는 input 클릭하면 원래 파란 아웃라인 생기는데, 그것 없애기 */
+.write-todos:focus{
+    outline: none;
+}
+
+.btn-all{
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.btn-select-all{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 25px;
+    background: #F2EFEB;
+}
+
+.btn-delete-all{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 25px;
+    background: #F2EFEB;
+}
+
+.todo-content{
+    font-family: 'Ubuntu', sans-serif;
+    color: #3B3F42;
+    min-height: 400px;
+    font-weight: 400;
+    border-top: 1px solid#F2EFEB;
+    border-bottom: 1px solid #F2EFEB;
+    /* border: 1px solid #F2EFEB; */
+}
+
+.content-bottom{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px 10px 15px;
+    height: 40px;
+}
+
+.cnt-all{
+    padding: 5px;
+    /* border: 1px solid seagreen; */
+    height: 20px;
+    color: #3B3F42;
+}
+
+.cnt-done{
+    padding: 5px;
+    /* border: 1px solid seagreen; */
+    height: 20px;
+    color: #3B3F42;
+}
+
+.cnt-left{
+    padding: 5px;
+    /* border: 1px solid seagreen; */
+    height: 20px;
+    color: #3B3F42;
+}
+
+.listClass{
+    height: 40px;
+    display: flex;
+    align-items: baseline;
+    /* border-bottom: 1px solid #F2EFEB; */
+    /* border-bottom: 1px solid black; */
+}
+
+.btn-done{
+    background-color: #F2EFEB;
+    margin-left: 15px;
+    border: 1px solid #3B3F42;
+    border-radius: 50%;
+    width: 10px;
+    height: 15px;
+
+}
+
+.textClass{
+    display: inline-block;
+    width: 825px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.btn-delete{
+    background-color:#F2EFEB;
+    border: none;
+}
+
+.doneList .btn-done{
+    background-color: #3B3F42;
+}
+
+.doneList .textClass{
+    text-decoration: line-through;
+    text-decoration-color: #3B3F42;
+}
+
+.username{
+    position: absolute;
+    top: 95%;
+    right: 2%;
+    color: #A69580;
+}
